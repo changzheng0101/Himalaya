@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/next_press" android:state_pressed="true"/>
+    <item android:drawable="@mipmap/next"/>
+    <!--有状态的一定要放在前面 否则无效-->
+</selector>

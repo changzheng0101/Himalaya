@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/search_recommend"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/search_recommend_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/search"/>
+    <TextView
+        android:layout_toRightOf="@id/search_recommend_icon"
+        android:id="@+id/search_recommend_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="这是标题"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        />
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/play_list_color"
+        />
+
+</RelativeLayout>
